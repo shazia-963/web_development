@@ -1,0 +1,38 @@
+.items{
+background-color: rgb(165, 224, 87);
+align-items: center;
+}
+.Item-2{
+    gap:90px;
+}
+ul{
+    text-decoration: none;
+    display: flex;
+    gap:40px;
+    }
+li{
+    text-decoration:none ;
+    list-style-type: none;
+    font-style: italic;
+}
+Link{
+   text-decoration: none;
+}
+.images{
+    padding: 30px;
+    align-content: center;
+}
+.center{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+  }
+  .responsive {
+    max-width: 100%;
+    height: auto;
+  }
+   
+   
