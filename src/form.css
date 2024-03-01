@@ -66,7 +66,7 @@ h1{
     background: transparent ; */
     /* color:#1d39c4; */
   /* } */
-  @media(max-width: 969px){
+  @media(max-width: 768px){
     section{
       padding:20px 0px;
     }
@@ -79,7 +79,7 @@ h1{
       max-width:calc( 50% - 20px);
     }
   }
-  @media(max-width:600px){
+  @media(max-width:768px){
  
     .card{
       flex:0 0 100%;
