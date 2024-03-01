@@ -1,38 +1,147 @@
-.items{
-background-color: rgb(165, 224, 87);
-align-items: center;
+ * {
+    padding: 0;
+    margin: 0;
 }
-.Item-2{
-    gap:90px;
+
+.navbar {
+    background-color: rgb(42, 37, 171);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
-ul{
+
+a {
+    text-decoration: none;
+    color: white;
+    }
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: cursive;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.logo {
+    font-size: 32px;
+    color: white;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media(max-width:768px) {
+    .menu {
+        position: absolute;
+        left: 0;
+        right: 0;
+        background-color: rgb(103, 196, 230);
+        top: 20%;
+        display:none;
+        text-align: center;
+    }
+
+    .menu li {
+        padding: 20px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+    input[type=checkbox]:checked~.menu {
+        display:block;
+    }
+
+}
+.abc{
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+li {
+    text-decoration: none;
+    color:black;
+}
+
+ul {
     text-decoration: none;
     display: flex;
-    gap:40px;
-    }
-li{
-    text-decoration:none ;
-    list-style-type: none;
-    font-style: italic;
+    gap: 40px;
 }
-Link{
-   text-decoration: none;
+
+li {
+    text-decoration: none;
+    list-style: none;
 }
-.images{
+
+.images {
     padding: 30px;
     align-content: center;
 }
-.center{
-    text-align: center;
-    display: block;
-    justify-content: center;
+
+.navbar {
+    background-color: rgb(42, 37, 171);
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin: auto;
-    width: 100%;
-  }
-  .responsive {
-    max-width: 100%;
-    height: auto;
-  }
-   
-   
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.logo {
+    font-size:32px;
+    color:white;
+}
+input[type=checkbox]{
+    display:none;
+}
+
+@media(max-width:768px) {
+    .menu {
+        position: absolute;
+        left: 0;
+        background-color: teal;
+        top: 12%;
+        display:none;
+        text-align: center;
+    }
+   .menu li {
+        padding: 20px;
+    }
+    .hamburger{
+        display:block;
+    }
+    input[type=checkbox]:checked ~ .menu{
+    display:block;
+    }
+} */
