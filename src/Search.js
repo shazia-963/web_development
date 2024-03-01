@@ -89,7 +89,7 @@ function Search() {
 
                 <div className="card1">
                     <div className="card-title">
-                        <h3>search your portal</h3>
+                        <h3>Search your Portal</h3>
                     </div>
                     <div className="card-body">
                         {/* <Link to="/empform" className="btn btn-success">Add New(+)</Link> */}
@@ -111,7 +111,6 @@ function Search() {
                         <table className="table table-bordered">
                             <thead >
                                 <tr className="table-dark text-white">
-                                    <th>S.No</th>
                                     <th>Id</th>
                                     <th>Title</th>
                                     <th>Description</th>
@@ -146,13 +145,14 @@ function Search() {
 
                 </div>
 
-                <div class="bottom-container">
-                    <a class="footer-link" href="https://instagram.com/home">Instagram</a>
+                <div className="bottom-container">
+
+                    <a className="footer-link" href="https://instagram.com/home"><i className="fa-brands fa-instagram"></i></a>
+                    <a className="footer-link" href="https://twitter.com/home"><i className="fa-brands fa-x-twitter"></i></a>
+                    <a className="footer-link" href="https://www.facebook.com/profile.php?id=100089459079414"><i className="fa-brands fa-facebook"></i></a>
+                    <a className="footer-link" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BNCG43wlDReW18Zbv48vlRQ%3D%3D"><i className="fa-brands fa-linkedin-in"></i></a>
+                    <p className="copyright">© S B Shazia Sulthana </p
                     
-                    <a class="footer-link" href="https://twitter.com/home">twitter</a>
-                    
-                    <a class="footer-link" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BNCG43wlDReW18Zbv48vlRQ%3D%3D">linkedin</a>
-                    <p class="copyright">© S B Shazia Sulthana </p>
                 </div>
             </div>
         </section>
