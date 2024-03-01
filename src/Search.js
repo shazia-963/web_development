@@ -151,7 +151,7 @@ function Search() {
                     <a className="footer-link" href="https://twitter.com/home"><i className="fa-brands fa-x-twitter"></i></a>
                     <a className="footer-link" href="https://www.facebook.com/profile.php?id=100089459079414"><i className="fa-brands fa-facebook"></i></a>
                     <a className="footer-link" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BNCG43wlDReW18Zbv48vlRQ%3D%3D"><i className="fa-brands fa-linkedin-in"></i></a>
-                    <p className="copyright">© S B Shazia Sulthana </p
+                    <p className="copyright">© S B Shazia Sulthana </p>
                     
                 </div>
             </div>
