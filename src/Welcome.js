@@ -19,7 +19,7 @@ function Welcome() {
                  </div>          
               </ul>
             <div className="abc">
-            <img src={classroom} width={1200} height={700} class="responsive"alt="abc" />
+              <img src={classroom} width={1200} height={700} class="responsive"alt="abc" />
         </div>
     )
 }
