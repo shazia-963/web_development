@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import "./form.css";
+
 function Portalform() {
   const [id, setId] = useState("")
   const [title, setname] = useState("")
@@ -46,73 +46,7 @@ function Portalform() {
         <Link to="/search" className="btn btn-danger">Back</Link>
 
       </form>
-      <h2>Types of Portals Available</h2>
-        <div className="col-sm-6">
-        <div className="card">
-          <div className="card-body">
-            <h5 className="card-title">B2B portal</h5>
-            {/* <p className="card-text">With supporting text below as a natural lead-in to additional content.</p> */}
-            {/* <a href="#" className="btn btn-primary">back</a> */}
-            <a href="#" className=""><button type="button" className="btn btn-primary" aria-label="Close">back</button></a>
-          </div>
-        </div>
       </div>
-     
-      <br />
-      <div className="col-sm-6">
-        <div className="card">
-          <div className="card-body">
-            <h5 className="card-title">B2C portal</h5>
-            {/* <p className="card-text">With supporting text below as a natural lead-in to additional content.</p> */}
-            {/* <a href="#" className="btn btn-primary">back</a> */}
-            <a href="#" className=""><button type="button" className="btn btn-primary" aria-label="Close">back</button></a>
-          </div>
-        </div>
-      </div>
-      <br/>
-      <div className="col-sm-6">
-        <div className="card">
-          <div className="card-body">
-            <h5 className="card-title">Vendor portal</h5>
-            {/* <p className="card-text">With supporting text below as a natural lead-in to additional content.</p> */}
-            {/* <a href="#" className="btn btn-primary">back</a> */}
-            <a href="#" className=""><button type="button" className="btn btn-primary" aria-label="Close">back</button></a>
-          </div>
-        </div>
-      </div>
-      <br />
-      <div className="col-sm-6">
-        <div className="card">
-          <div className="card-body">
-            <h5 className="card-title">Partner Portal</h5>
-            {/* <p className="card-text">With supporting text below as a natural lead-in to additional content.</p> */}
-            <a href="#" className=""><button type="button" className="btn btn-primary" aria-label="Close">back</button></a>
-          </div>
-        </div>
-      </div>
-      <br/>
-      <div className="col-sm-6">
-        <div className="card">
-          <div className="card-body">
-            <h5 className="card-title">Community portal</h5>
-            {/* <p className="card-text">With supporting text below as a natural lead-in to additional content.</p> */}
-            <br />
-            <a href="#" className=""><button type="button" className="btn btn-primary" aria-label="Close">back</button></a>
-
-          </div>
-        </div>
-      </div>
-      <br />
-      <div className="col-sm-6">
-        <div className="card">
-          <div className="card-body">
-            <h5 className="card-title">Banking Portal</h5>
-            {/* <p className="card-text">With supporting text below as a natural lead-in to additional content.</p> */}
-            <a href="#" className=""><button type="button" className="btn btn-primary" aria-label="Close">back</button></a>
-          </div>
-        </div>
-      </div>
-    </div>
 )
 }
 export default Portalform;
